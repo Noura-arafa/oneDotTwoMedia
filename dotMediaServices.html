@@ -3,6 +3,8 @@
 <head>
 	<title>Media services</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="footer-nav-style.css">
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
 
@@ -122,6 +124,76 @@
 
 
 
+		</div>
+	</div>
+
+	<div class="footer">
+		<img src="Images/top.png" onclick="topFunction()" id= "topBtn" class= "top-btn-footer" title="Go to top"/>
+
+		<script type="text/javascript">
+			//When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			        document.getElementById("topBtn").style.display = "block";
+			    } else {
+			        document.getElementById("topBtn").style.display = "none";
+			    }
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+			    document.body.scrollTop = 0; // For Safari
+			    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+			}
+		</script>
+
+			<div class="container width-footer">
+				<div class="container-fluid">
+					<div class="row text-center row-footer">
+						<div class="col-md-3 logo-footer">
+							<img class="img-logo-footer"src="Images/logo.png" />
+						</div>
+						<div class="col-md-2 home-btn-footer text-center">
+							 <a href="">HOME</a>
+						</div>
+						<div class="col-md-3">
+							 
+							<address>
+								 <strong>Contact us</strong><br /> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Phone">P:</abbr> (123) 456-7890
+							</address>
+							<a class="fa fa-facebook"></a>
+							<a class="fa fa-twitter"></a>
+							<a class="fa fa-instagram"></a>
+							<a class="fa fa-google"></a>
+							<a class="fa fa-youtube"></a>
+
+						</div>
+						<div class="col-md-4">
+							 
+							<address>
+								 <strong>Address</strong><br /> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Phone">P:</abbr> (123) 456-7890
+							</address>
+						</div>
+					</div>
+					<div class="row text-c row-footer">
+						<div class="col-md-3">
+							 <small>&copy; Copyright 2058, Example Corporation</small>
+						</div>
+						<div class="col-md-9 about-us-footer">
+							<div class="about-us-with-margin-footer">
+								<h2>
+								About us
+							</h2>
+							<p class="text-cn about-us-p-footer">
+								Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+							</p>
+							</div>
+							
+						</div>
+					</div>
+					</div>
 		</div>
 	</div>
 
