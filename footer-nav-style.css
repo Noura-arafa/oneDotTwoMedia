@@ -1,0 +1,71 @@
+.footer{
+    padding:100px;
+    background-color:#231f20;
+    color:white;
+
+}
+
+.logo-footer{
+    background-color: white;
+    padding:20px;
+}
+
+.home-btn-footer{
+
+    padding-top: 100px;
+    background: linear-gradient(to bottom, #231f20 35%,#231f20 35%,#231f20 35%,#231f20 35%,#c52429 35%,#c52429 35%,#c52429 35%);
+
+}
+
+
+.img-logo-footer{
+    display:block;
+    margin:auto;
+
+}
+
+.about-us-footer{
+    padding-bottom: 10px;
+    background: #c52429;
+    max-width: 100%;
+
+}
+
+.about-us-with-margin-footer{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.about-us-p-footer{
+        display: inline-block;
+    vertical-align: bottom;
+
+}
+
+.row-footer{
+    display: flex
+}
+
+
+.width-footer{
+    max-width: 100%;
+}
+
+.top-btn-footer {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #c52429; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    font-size: 18px; /* Increase font size */
+}
+
+.top-btn-footer:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}

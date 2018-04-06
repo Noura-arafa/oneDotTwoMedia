@@ -4,6 +4,12 @@ body {
 
 }
 
+html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+
 
 .header{
 	display: grid;
@@ -54,6 +60,9 @@ body {
 	width: 500px;
 	padding-top: 25%;
 	padding-left: 100px;
+            display: inline-block;
+    vertical-align: bottom;
+
 }
 .paragraphRectangle{
 	padding-left: 100px;
@@ -73,6 +82,8 @@ body {
 }
 
 #with-padding {
-  padding-top: 20px;
+  padding-top: 1000px;
   padding-bottom: 30px;
+  min-height: 100%;
 }
+
