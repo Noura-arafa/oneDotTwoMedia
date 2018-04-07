@@ -63,3 +63,21 @@ html, body {
     max-height: 100%;
     max-width: 100%;
 }
+
+
+.URLlink{
+    margin-left: 120px;
+    color: grey;
+    margin-top: -145px; 
+}
+
+.URLhead{
+    color: #d12b2b;
+}
+
+.background{
+    width: 600px;
+    height: 150px;
+    background-color: #ffffff;
+    margin-top: 50px;
+}
