@@ -66,9 +66,10 @@ html, body {
 
 
 .URLlink{
-    margin-left: 120px;
+   /* margin-left: 120px;*/
     color: grey;
     margin-top: -145px; 
+    padding: 40px;
 }
 
 .URLhead{
