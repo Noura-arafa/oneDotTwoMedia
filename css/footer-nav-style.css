@@ -64,9 +64,9 @@
 }
 
 .about-us-p-footer{
-        display: inline-block;
+    display: inline-block;
     vertical-align: bottom;
-
+    padding-bottom: 10px;
 }
 
 .row-footer{

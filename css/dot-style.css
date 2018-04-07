@@ -50,7 +50,7 @@ html, body {
 	padding-left: 220px;
 }
 
-#with-padding {
+.with-padding {
   padding-top: 10px;
   padding-bottom: 30px;
   min-height: 100%;

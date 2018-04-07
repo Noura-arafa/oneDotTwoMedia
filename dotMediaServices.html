@@ -5,6 +5,11 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+	 <script src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js'></script>
+	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+	<script  src="js/div-nav.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/div-nav-style.css">
 	<link rel="stylesheet" type="text/css" href="css/dot-style.css">
 	<link rel="stylesheet" type="text/css" href="css/footer-nav-style.css">
 
@@ -25,99 +30,120 @@
 		</div>
 	</div>
 
+	<nav id="cd-vertical-nav">
+		<ul>
+			<li>
+				<a href="#section1" data-number="1">
+					<span class="cd-dot"></span>
+					<span class="cd-label"> Film and tv equipments rental</span>
+				</a>
+			</li>
+			<li>
+				<a href="#section2" data-number="2">
+					<span class="cd-dot"></span>
+					<span class="cd-label"> Film crew</span>
+				</a>
+			</li>
+			<li>
+				<a href="#section3" data-number="3">
+					<span class="cd-dot"></span>
+					<span class="cd-label"> Location permission</span>
+				</a>
+			</li>
+			<li>
+				<a href="#section4" data-number="4">
+					<span class="cd-dot"></span>
+					<span class="cd-label"> Post production</span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+
 	<div class="content">
 
 		<div class="container-fluid">
- 
-			<div class="row row-striped" id="with-padding">
+			 
+						<!--Film and tv equipments rental-->
+			<div class="row row-striped with-padding" id="section1">
 				<div class="col-md-6">
 					<div class="row">
 						<div class="col-md-12">
-							<img class="threeDots" src="images/threeDots.png">
-
-							<h1 class="h1">Film &amp; tv equipments rental</h1>
+							<img class="threeDots" src="images/threeDots-red.png">
+							<h1 class="h1">Film and tv equipments rental</h1>
 						</div>
 					</div>
 					<div class="row">
 						<div class="col-md-12">
 							<p class="paragraph">We partner with editorial teams to identify their highest quality content -- the pieces that pique and keep reader attention. We partner with advertising teams to plan campaigns around this high-quality content so these ads are seen more often and for longer.</p>
-
-						<img class="paragraphRectangle" src="images/red-white rectangle.png">
+							<img class="paragraphRectangle" src="images/red-white rectangle.png">
 						</div>
 					</div>
 				</div>
 				<div class="col-md-6">
-					<img id="image" class="img-responsive" src="images/dot media service/film equipment rental.png">
+					<img id="image" class="img-responsive" src="images/dot media/dot media1.png">
 				</div>
 			</div>
 
-			<div class="row row-striped" id="with-padding">
-				<div class="col-md-12">
-					<div class="col-md-6">
-						<div class="row">
-							<div class="col-md-12">
-								<img class="threeDots" src="images/threeDots.png">
-								<h1 class="h1">Film crew</h1>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<p class="paragraph">We partner with editorial teams to identify their highest quality content -- the pieces that pique and keep reader attention. We partner with advertising teams to plan campaigns around this high-quality content so these ads are seen more often and for longer.</p>
-
-								<img  class="paragraphRectangle" src="images/red-white rectangle.png">
-							</div>
+			<!--Film crew-->
+			<div class="row row-striped with-padding" id="section2">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-12">
+							<img class="threeDots" src="images/threeDots.png">
+							<h1 class="h1">Film crew</h1>
 						</div>
 					</div>
-					<div class="col-md-6">
-						<img id="image" class="img-responsive" src="images/dot media service/film crew.png">
-					</div>
-				</div>
-			</div>
-
-			<div class="row row-striped" id="with-padding">
-				<div class="col-md-12">
-					<div class="col-md-6">
-						<div class="row">
-							<div class="col-md-12">
-								<img class="threeDots" src="images/threeDots.png">
-								<h1 class="h1">Location permission</h1>
-							</div>
-						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<p class="paragraph">We partner with editorial teams to identify their highest quality content -- the pieces that pique and keep reader attention. We partner with advertising teams to plan campaigns around this high-quality content so these ads are seen more often and for longer.</p>
-
+					<div class="row">
+						<div class="col-md-12">
+							<p class="paragraph">We partner with editorial teams to identify their highest quality content -- the pieces that pique and keep reader attention. We partner with advertising teams to plan campaigns around this high-quality content so these ads are seen more often and for longer.</p>
 							<img class="paragraphRectangle" src="images/red-white rectangle.png">
-							</div>
 						</div>
 					</div>
-					<div class="col-md-6">
-						<img id="image" class="img-responsive" src="images/dot media service/location permission.png">
-					</div>
+				</div>
+				<div class="col-md-6">
+					<img id="image" class="img-responsive" src="images/dot media/dot media2.png">
 				</div>
 			</div>
 
-
-			<div class="row  row-striped" id="with-padding">
-				<div class="col-md-12">
-					<div class="col-md-6">
-						<div class="row">
-							<div class="col-md-12">
-								<img class="threeDots" src="images/threeDots.png">
-								<h1 class="h1">Post production</h1>
-							</div>
+			<!--Location permission-->
+			<div class="row row-striped with-padding" id="section3">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-12">
+							<img class="threeDots" src="images/threeDots.png">
+							<h1 class="h1">Location permission</h1>
 						</div>
-						<div class="row">
-							<div class="col-md-12">
-								<p class="paragraph">We partner with editorial teams to identify their highest quality content -- the pieces that pique and keep reader attention. We partner with advertising teams to plan campaigns around this high-quality content so these ads are seen more often and for longer.</p>
-
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<p class="paragraph">We partner with editorial teams to identify their highest quality content -- the pieces that pique and keep reader attention. We partner with advertising teams to plan campaigns around this high-quality content so these ads are seen more often and for longer.</p>
 							<img class="paragraphRectangle" src="images/red-white rectangle.png">
-							</div>
 						</div>
 					</div>
-					<div class="col-md-6">
-						<img id="image" class="img-responsive" src="images/dot media service/post production.png">
+				</div>
+				<div class="col-md-6">
+					<img id="image" class="img-responsive" src="images/dot media/dot media3.png">
+				</div>
+			</div>
+
+			<!--Post production-->
+			<div class="row row-striped with-padding" id="section4">
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-md-12">
+							<img class="threeDots" src="images/threeDots.png">
+							<h1 class="h1">Post production</h1>
+						</div>
 					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<p class="paragraph">We partner with editorial teams to identify their highest quality content -- the pieces that pique and keep reader attention. We partner with advertising teams to plan campaigns around this high-quality content so these ads are seen more often and for longer.</p>
+							<img class="paragraphRectangle" src="images/red-white rectangle.png">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<img id="image" class="img-responsive" src="images/dot media/dot media4.png">
 				</div>
 			</div>
 
