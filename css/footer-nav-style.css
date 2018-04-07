@@ -1,3 +1,30 @@
+.nav-bar{
+    background: #f3f3f3;
+    padding-bottom: 5px;
+}
+
+.bar_btn{
+    background-color: #231f20; /* Blue background */
+    border: none; /* Remove borders */
+    color: #000000; /* White text */
+    padding: 20px 20px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    margin-top: 5px;
+}
+
+.search_btn{
+    background-color: white; /* Blue background */
+    border: none; /* Remove borders */
+    color: black; /* White text */
+    padding: 20px 20px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    margin-top: 5px;
+
+}
+
+
 .footer{
     padding:100px;
     background-color:#231f20;
@@ -68,4 +95,16 @@
 
 .top-btn-footer:hover {
     background-color: #555; /* Add a dark-grey background on hover */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+    cursor: pointer; /* Mouse pointer on hover */
+
 }
