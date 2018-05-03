@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../css/404-style.css'
 import Image from '../images/404/sign.png'
 
 class Page404 extends Component {

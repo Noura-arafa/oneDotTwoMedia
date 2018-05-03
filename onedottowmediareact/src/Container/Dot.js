@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
-// import '../css/dot-style.css'
+import imgr from '../images/threeDots-red.png'
+import img from '../images/red-white rectangle.png'
 
 class Image extends Component{
 
-	bla() {
-	 	return ("../images/" + this.props.folderName + "/" + this.props.folderName + this.props.idx)
+	render() {
+	 	// return ("../images/" + this.props.folderName + "/" + this.props.folderName + this.props.idx)
+	 	return(this.props.img)
 	}
 
 	/*render() {
@@ -20,27 +22,33 @@ class Dot extends Component {
 	constructor(props) {
 	    super(props);
   	}
+  	
 
 	render() {
       return (
-	    		<div className="row row-striped" id="with-padding">
+	    		<div className="row row-striped with-padding" id={this.props.id}>
 					<div className="col-md-6">
 						<div className="row">
 							<div className="col-md-12">
-								<img className="threeDots" src="../images/threeDots-red.png"/>
-								<h1 className="h1"><b>{this.props.headline}</b></h1>
+								<img className="threeDots" src={imgr}/>
+								<h1 className="h1-dot">{this.props.headline}</h1>
 							</div>
 						</div>
 						<div className="row">
 							<div className="col-md-12">
-								<p className="paragraph">Increase visibility of your business. build customer loyalty and expand your customer base.</p>
-								<img className="paragraphRectangle" src="../images/red-white rectangle.png"/>
+								<p className="paragraph-dot">{this.props.paragraph}</p>
+								<img className="paragraphRectangle" src={img}/>
 							</div>
 						</div>
 					</div>
 
 					<div className="col-md-6">
-						{/*<Image idx={this.props.idx} folderName={this.props.headline}/>*/}
+						{
+							/*<Image idx={this.props.idx} folderName={this.props.headline}/>*/
+							 <img id="image" class="img-responsive" src={this.props.img}/>
+							// <img id="image" class="img-responsive" src=<Image />/>
+
+					}
 
 					</div>
 				</div>
