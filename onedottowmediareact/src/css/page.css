@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 3fr 0.1fr 0.1fr;
     grid-template-rows: 50px;
-   
+
 }
 .home_parent {
     position: relative;
@@ -36,8 +36,8 @@
     padding: 18px 18px; /* Some padding */
     font-size: 15px; /* Set a font size */
     cursor: pointer; /* Mouse pointer on hover */
-   
-  
+
+
 }
 .search_btn{
     background-color: white; /* Blue background */
@@ -102,8 +102,10 @@ margin-top: -13px;
 .slideright{
     margin-top:320px;
    margin-left:1255px;
+   position: absolute;
 }
 .servicesbutton{
+  position: relative;
     width:90px;
     height: auto;
     cursor: pointer; /* Mouse pointer on hover */
@@ -112,7 +114,7 @@ margin-top: -13px;
    margin-left: -20px;
 }
 .thecard{
-   
+
     width:28%;
     height:105px;
     background-color:whitesmoke;
@@ -122,23 +124,23 @@ margin-top: -13px;
     border:2px solid whitesmoke;
     padding-left:6px;
     text-align: center;
-    color: black;   
+    color: black;
     font-size:11px;
 }
 .p4{
-    margin-top:30px;
+    margin-top:20px;
 }
 .p5{
   margin-top:-13px;
    margin-left:-28px;
-    
+
 }
 .p6{
      margin-top:-13px;
     margin-left:-20px;
 }
 .more{
-    margin-top:-690px;
+    margin-top:-700px;
     margin-left:-16px;
     width:1300px;
     height: auto;

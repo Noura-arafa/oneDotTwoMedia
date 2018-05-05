@@ -15,7 +15,7 @@ class Navbar extends Component {
 	// 	document.getElementById("dropdown_con").style.display="block";
 	// }
 
-          
+
 	};
   render() {
     return (
@@ -27,16 +27,18 @@ class Navbar extends Component {
 					<img src={logo}/>
 				</div>
 					<div className="col-md-6 text-right">
-						<button class="search_btn"><i class="fa fa-search"></i></button>
+						<button className="search_btn"><i className="fa fa-search"></i></button>
 						<div className ="dropdown">
 						<button onClick ={e =>this.show(e)} className="bar_btn"><i className="fa fa-bars"></i>
 						<div id="dropdown_con" className="dropdown-content">
+							<a href="/">Home</a>
 					    <a href="/DotAcademy">DotAcademy</a>
 					    <a href="/DotAnalytics">DotAnalytics</a>
 					    <a href="/DotDevServices">DotDevServices</a>
 					    <a href="/DotMediaServices">DotMediaService</a>
 					    <a href="/DotPress">DotPress</a>
 					    <a href="/DotVid">DotVid</a>
+							<a href="/contactUs">ContactUs</a>
 					  </div>
 						</button>
 						</div>

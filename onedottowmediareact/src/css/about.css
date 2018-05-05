@@ -6,6 +6,10 @@
 
 .header_parent{
   position: relative;
+
+}
+.showSl{
+  display: none;
 }
 .about {
   color: white;
@@ -40,7 +44,7 @@
   position: absolute;
   left: 43.50%;
   top: 60%;
-  
+
 }
 .header_parent .openQuotion {
   position: absolute;
@@ -58,7 +62,7 @@
   position: absolute;
   left: 48%;
   top: 47%;
-  
+
 }
 .para_white {
   font-size: 20.50px;
@@ -71,7 +75,7 @@
   text-align: justify-all;
   -moz-transform: matrix( 0.98216497546393,0,0,0.98449259110379,0,0);
   -webkit-transform: matrix( 0.98216497546393,0,0,0.98449259110379,0,0);
-  -ms-transform: matrix( 0.98216497546393,0,0,0.98449259110379,0,0); 
+  -ms-transform: matrix( 0.98216497546393,0,0,0.98449259110379,0,0);
 }
 .para_red {
   font-size: 12.50px;
@@ -112,6 +116,7 @@
 .header_parent .leftButton {
   position: absolute;
   top: 37%;
+  left:0px;
 }
 .header_parent .rightButton {
   position: absolute;
@@ -146,7 +151,7 @@
   color: rgb( 35, 31, 32 );
   text-align: justify;
   text-align-last: center;
-  
+
 }
 
 #Software_company {
@@ -193,7 +198,7 @@
 .container_row2 {
   margin-left: 0px;
   margin-right: 0px;
-   
+
 }
 .padd_row2{
   padding-left: 0px;
@@ -201,7 +206,7 @@
 }
 .row2_background{
   background-color:#EEEEEE;
- 
+
 }
 .row2_image{
   padding-left: 20px;
@@ -223,4 +228,3 @@
   display: inline-block;
   font-size: 12px;
 }
-
