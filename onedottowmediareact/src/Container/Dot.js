@@ -1,21 +1,6 @@
 import React, { Component } from 'react';
 import imgr from '../images/threeDots-red.png'
-import img from '../images/red-white rectangle.png'
-
-class Image extends Component{
-
-	render() {
-	 	// return ("../images/" + this.props.folderName + "/" + this.props.folderName + this.props.idx)
-	 	return(this.props.img)
-	}
-
-	/*render() {
-	
-	    return(
-	    	<img id="image" className="img-responsive" src={this.bla}/>
-	    );
-	}*/
-}
+import imgg from '../images/red-white rectangle.png'
 
 class Dot extends Component {
 
@@ -37,16 +22,17 @@ class Dot extends Component {
 						<div className="row">
 							<div className="col-md-12">
 								<p className="paragraph-dot">{this.props.paragraph}</p>
-								<img className="paragraphRectangle" src={img}/>
+								<img className="paragraphRectangle" src={imgg}/>
 							</div>
 						</div>
 					</div>
 
 					<div className="col-md-6">
 						{
-							/*<Image idx={this.props.idx} folderName={this.props.headline}/>*/
-							 <img id="image" class="img-responsive" src={this.props.img}/>
+							// var x= this.props.img;
+						  //<img id="image" class="img-responsive" src={require( this.props.img )}/>
 							// <img id="image" class="img-responsive" src=<Image />/>
+							<img id="image" className="img-responsive" src={require('../images/'+ this.props.folder.toLowerCase() + '/'+ this.props.img.toLowerCase() + '.png')}/>
 
 					}
 
